@@ -25,8 +25,8 @@ if len(sys.argv) >= 3:
 	f.close()
 
 else:
-	print """
+	print ("""
 	Usage: 3 arguments: import file location which is dumped from QQ as a txt, and the qq group (such as reading or lang), then optionally, the start date to import
 	Like: python parse.py test.txt lang 2015-01-01
 	And you will get a sql with the current timestamp then upload it and wait for the task to complete
-	"""
+	""")
